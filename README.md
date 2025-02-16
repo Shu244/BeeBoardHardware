@@ -1,6 +1,12 @@
 # Overview
 
-This repo contains a generic power supply that supports a battery and a power button (for turning on power and programmatically turning off power).
+This repo contains a generic power supply for ESP32 and other MCUs. This board includes: 
+
+1) Charging circuit with power path
+2) Power button (for turning on power manually and programmatically turning off power to save battery)
+3) PENDING: battery status bar 
+
+The purpose of this board is to contain all necessary components to make the MCU portable with precise battery control. 
 
 ## Block diagram
 
