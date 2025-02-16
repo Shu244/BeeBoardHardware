@@ -10,4 +10,4 @@ The purpose of this board is to make an MCU portable with precise battery contro
 
 ## Block diagram
 
-![BeeBoard block diagram](https://file%2B.vscode-resource.vscode-cdn.net/Users/shuhao/Repos/BeeBoardHardware/images/BeeBoardBlockDiagram.png?version%3D1739656216940)
+![BeeBoard block diagram](./images/BeeBoardBlockDiagram.png)
