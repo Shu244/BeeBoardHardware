@@ -8,7 +8,6 @@
 		(title "BeeBoard")
 		(date "2025-02-09")
 		(rev "V1")
-		(company "LMakers")
 	)
 	(lib_symbols
 		(symbol "Battery_Management:BQ24074RGT"
@@ -5076,7 +5075,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 48.26) (xy 62.23 48.26)
+			(xy 54.61 48.26) (xy 64.77 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5426,7 +5425,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 33.02) (xy 67.31 43.18)
+			(xy 69.85 33.02) (xy 69.85 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5756,7 +5755,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 33.02) (xy 67.31 33.02)
+			(xy 62.23 33.02) (xy 69.85 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5776,7 +5775,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 50.8) (xy 62.23 50.8)
+			(xy 54.61 50.8) (xy 64.77 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5945,7 +5944,7 @@
 		)
 		(uuid "5ae78fd1-60a6-4d25-b443-ea2f4ed1abde")
 	)
-	(text "Datasheet: https://www.digikey.com/en/products/detail/\n   onsemi/LC709203FQH-01TWG/4847843\n\nFor LC709203Fxx−01xx, we have two profiles available. \nWe want to use battery type 01 (pg 13) for our \nsingle cell LiPo 2000mAh w/ nominal 3v7."
+	(text "Datasheet: https://www.digikey.com/en/products/detail/\n   onsemi/LC709203FQH-01TWG/4847843\n\nFor LC709203Fxx−01xx, we have two battery profiles available. \nWe want to use battery type 01 (pg 13) for our \nsingle cell LiPo 2000mAh w/ nominal 3v7."
 		(exclude_from_sim no)
 		(at 283.718 81.026 0)
 		(effects
@@ -6057,9 +6056,31 @@
 			)
 		)
 	)
+	(global_label "PRE_D-"
+		(shape input)
+		(at 62.23 48.26 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15bd6e6e-2815-42f3-881f-e3f7b46ba984")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 37.7758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS"
 		(shape input)
-		(at 67.31 33.02 0)
+		(at 69.85 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6069,7 +6090,7 @@
 		)
 		(uuid "2298663b-0e54-47df-8a62-f8d2cd4a4f86")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.1938 33.02 0)
+			(at 77.7338 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,6 +6320,28 @@
 			)
 		)
 	)
+	(global_label "PRE_D+"
+		(shape input)
+		(at 62.23 50.8 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d8815ec-c17d-4a1c-b69a-66a801c7738f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 61.2842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+3v3"
 		(shape input)
 		(at 281.94 144.78 180)
@@ -6499,7 +6542,7 @@
 	)
 	(global_label "USB_D+"
 		(shape input)
-		(at 72.39 50.8 0)
+		(at 74.93 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6509,7 +6552,7 @@
 		)
 		(uuid "bca10fa5-9f77-4130-af48-5ba1d6ec3fc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9952 50.8 0)
+			(at 85.5352 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +6608,7 @@
 	)
 	(global_label "USB_D-"
 		(shape input)
-		(at 72.39 48.26 0)
+		(at 74.93 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6575,7 +6618,7 @@
 		)
 		(uuid "cc1495f7-2136-4284-b096-7a80a069bf24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9952 48.26 0)
+			(at 85.5352 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,7 +7111,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 55.88 0)
+		(at 69.85 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7077,7 +7120,7 @@
 		(fields_autoplaced yes)
 		(uuid "18646f43-a059-4dc3-a72d-04e449703a70")
 		(property "Reference" "#PWR013"
-			(at 67.31 62.23 0)
+			(at 69.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7086,7 +7129,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 60.96 0)
+			(at 69.85 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +7137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 55.88 0)
+			(at 69.85 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +7146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 55.88 0)
+			(at 69.85 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +7155,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 55.88 0)
+			(at 69.85 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12291,7 +12334,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
-		(at 67.31 48.26 0)
+		(at 69.85 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12300,7 +12343,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdbcd9d3-8bcc-4d1d-a7b8-b1dfb42cb896")
 		(property "Reference" "U3"
-			(at 68.9611 40.64 0)
+			(at 71.5011 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12309,7 +12352,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 68.9611 43.18 0)
+			(at 71.5011 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12318,7 +12361,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 68.58 54.61 0)
+			(at 71.12 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12329,7 +12372,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 68.58 56.515 0)
+			(at 71.12 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12339,7 +12382,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 67.31 48.26 0)
+			(at 69.85 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12348,7 +12391,7 @@
 			)
 		)
 		(property "Digikey Link" ""
-			(at 67.31 48.26 0)
+			(at 69.85 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12357,7 +12400,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" ""
-			(at 67.31 48.26 0)
+			(at 69.85 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
