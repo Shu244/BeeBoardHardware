@@ -8,7 +8,7 @@ This repo contains a generic power supply for ESP32 and other MCUs. This board i
 
 The purpose of this board is to make an MCU portable with precise battery control and monitoring.
 
-## Block diagram
+## Block Diagram
 
 ![BeeBoard block diagram](./images/BeeBoardBlockDiagram.png)
 
@@ -23,7 +23,7 @@ The purpose of this board is to make an MCU portable with precise battery contro
 
 ![BeeBoard PCB back](./images/pcb/back_pcb.png)
 
-## 3D Model
+## 3D Models
 
 ![BeeBoard 3D Model front](./images/pcb/3d_front.png)
 
